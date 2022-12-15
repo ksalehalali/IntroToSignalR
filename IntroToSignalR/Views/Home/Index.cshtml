@@ -1,0 +1,27 @@
+﻿<dev class="container" style="padding-top:80px;">
+    <dev class="row">
+        <dev class="col-6">
+            <span>Enter your name:</span><br />
+            <input type="text" id="txtUser" /><br />
+            <span>Enter your message:</span><br />
+            <textarea rows="10" cols="50" id="txtMessage"></textarea><br />
+            <button type="submit" id="btnSend" class="btn btn-info">Send Message</button>
+
+
+        </dev>
+
+        <dev class="col-6">
+            <h3>Message List:</h3>
+            <ul id="list" class="alert alert-info">
+
+            </ul>
+        </dev>
+    </dev>
+
+</dev>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+
+<script src="~/js/site.js"></script>
